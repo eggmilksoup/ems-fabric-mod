@@ -9,16 +9,23 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class EggMilkSoup implements ModInitializer {
-	public static final Logger LOGGER = LoggerFactory.getLogger("eggmilksoup");
+  public static final Logger LOGGER = LoggerFactory.getLogger("eggmilksoup");
 
-	public static final MobMilk CREEPER_MILK = new MobMilk (
-			new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-			new int[] {15}
-	);
+  public static final MobMilk CREEPER_MILK = new MobMilk (
+    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new int[] {15}
+  );
 
-	@Override
+  public static final MobMilk BAT_MILK = new MobMilk (
+    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new int[] {14}
+  );
+
+  @Override
 	public void onInitialize() {
 		LOGGER.info("Adding EMS Milk items.");
-		Registry.register(Registry.ITEM, new Identifier("eggmilksoup", "creeper_milk"), CREEPER_MILK);
-	}
+
+    Registry.register(Registry.ITEM, new Identifier("creeper_milk"), CREEPER_MILK);
+    Registry.register(Registry.ITEM, new Identifier("bat_milk"), BAT_MILK);
+  }
 }
