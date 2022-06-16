@@ -2,7 +2,6 @@ package net.fabricmc.eggmilksoup;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -15,7 +14,7 @@ public class EggMilkSoup implements ModInitializer {
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger("eggmilksoup");
 
-	public static final Item CREEPER_MILK = new Item(new FabricItemSettings().group(ItemGroup.MISC));
+	public static final MobMilk CREEPER_MILK = new MobMilk(new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1));
 
 	@Override
 	public void onInitialize() {
