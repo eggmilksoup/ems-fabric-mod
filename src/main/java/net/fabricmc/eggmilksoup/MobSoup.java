@@ -19,7 +19,7 @@ public class MobSoup extends StewItem {
     @Override
     public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
         for(int e : effects)
-            user.addStatusEffect(new StatusEffectInstance(StatusEffect.byRawId(e)));
+            user.addStatusEffect(new StatusEffectInstance(StatusEffect.byRawId(e), 320));
         return super.finishUsing(stack, world, user);
     }
 }
