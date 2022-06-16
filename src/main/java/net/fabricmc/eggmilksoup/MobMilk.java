@@ -12,11 +12,10 @@ import net.minecraft.stat.Stats;
 import net.minecraft.world.World;
 
 public class MobMilk extends MilkBucketItem {
-    public int effect;
-    public MobMilk(Settings settings, int effect)
-    {
+    int[] effects;
+    public MobMilk(Settings settings, int[] effects) {
         super(settings);
-        this.effect = effect;
+        this.effects = effects;
     }
 
     @Override
@@ -26,13 +25,12 @@ public class MobMilk extends MilkBucketItem {
             serverPlayerEntity.incrementStat(Stats.USED.getOrCreateStat(this));
         }
 
-        if (user instanceof PlayerEntity && !((PlayerEntity)user).getAbilities().creativeMode) {
+        if (user instanceof PlayerEntity && !((PlayerEntity)user).getAbilities().creativeMode)
             stack.decrement(1);
-        }
 
-        if (!world.isClient) {
-            user.removeStatusEffect(StatusEffect.byRawId(effect));
-        }
+        if (!world.isClient)
+            for(int e : effects)
+                user.removeStatusEffect(StatusEffect.byRawId(e));
 
         return stack.isEmpty() ? new ItemStack(Items.BUCKET) : stack;
     }

@@ -11,7 +11,10 @@ import org.slf4j.LoggerFactory;
 public class EggMilkSoup implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger("eggmilksoup");
 
-	public static final MobMilk CREEPER_MILK = new MobMilk(new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1), 15);
+	public static final MobMilk CREEPER_MILK = new MobMilk (
+			new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+			new int[] {15}
+	);
 
 	@Override
 	public void onInitialize() {
