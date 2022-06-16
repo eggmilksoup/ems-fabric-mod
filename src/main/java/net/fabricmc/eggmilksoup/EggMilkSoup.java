@@ -9,12 +9,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class EggMilkSoup implements ModInitializer {
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger("eggmilksoup");
 
-	public static final MobMilk CREEPER_MILK = new MobMilk(new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1));
+	public static final MobMilk CREEPER_MILK = new MobMilk(new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1), 15);
 
 	@Override
 	public void onInitialize() {
