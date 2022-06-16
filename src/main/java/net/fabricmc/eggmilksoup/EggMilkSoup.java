@@ -2,6 +2,7 @@ package net.fabricmc.eggmilksoup;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.item.FoodComponents;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -17,7 +18,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup GLOW_SQUID_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {3}
   );
 
@@ -27,7 +28,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup FOX_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {4}
   );
 
@@ -37,7 +38,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup DONKEY_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {5}
   );
 
@@ -47,7 +48,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup COD_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {6}
   );
 
@@ -57,7 +58,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup CHICKEN_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {7}
   );
 
@@ -67,7 +68,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup CAT_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {8}
   );
 
@@ -77,7 +78,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup HORSE_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {9}
   );
 
@@ -87,7 +88,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup BAT_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {10}
   );
 
@@ -97,7 +98,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup AXOLOTL_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {11}
   );
 
@@ -107,7 +108,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup SALMON_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {12}
   );
 
@@ -117,7 +118,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup PUFFERFISH_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {13}
   );
 
@@ -127,7 +128,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup RABBIT_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {14}
   );
 
@@ -137,7 +138,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup POLAR_BEAR_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {15}
   );
 
@@ -147,7 +148,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup PIG_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {16}
   );
 
@@ -157,7 +158,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup PIGLIN_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {17}
   );
 
@@ -167,7 +168,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup OCELOT_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {18}
   );
 
@@ -177,7 +178,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup MULE_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {19}
   );
 
@@ -187,7 +188,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup PARROT_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {20}
   );
 
@@ -197,7 +198,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup WANDERING_TRADER_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {21}
   );
 
@@ -207,7 +208,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup SHEEP_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {22}
   );
 
@@ -217,7 +218,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup SKELETON_HORSE_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {23}
   );
 
@@ -227,7 +228,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup VILLAGER_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {24}
   );
 
@@ -237,7 +238,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup SNOW_GOLEM_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {25}
   );
 
@@ -247,7 +248,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup SQUID_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {26}
   );
 
@@ -257,7 +258,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup STRIDER_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {27}
   );
 
@@ -267,7 +268,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup TROPICAL_FISH_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {28}
   );
 
@@ -277,7 +278,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup TURTLE_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {29}
   );
 
@@ -287,7 +288,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup GOAT_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {30}
   );
 
@@ -297,7 +298,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup ENDERMAN_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {31}
   );
 
@@ -307,7 +308,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup LLAMA_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {32}
   );
 
@@ -317,7 +318,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup CAVE_SPIDER_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,1}
   );
 
@@ -327,7 +328,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup BEE_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,2}
   );
 
@@ -337,7 +338,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup PANDA_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,3}
   );
 
@@ -347,7 +348,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup ZOMBIFIED_PIGLIN_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,4}
   );
 
@@ -357,7 +358,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup SPIDER_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,5}
   );
 
@@ -367,7 +368,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup WOLF_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,6}
   );
 
@@ -377,7 +378,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup DOLPHIN_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,7}
   );
 
@@ -387,7 +388,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup TRADER_LLAMA_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,8}
   );
 
@@ -397,7 +398,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup ZOGLIN_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,9}
   );
 
@@ -407,7 +408,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup WITHER_SKELETON_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,10}
   );
 
@@ -417,7 +418,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup WITCH_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,11}
   );
 
@@ -427,7 +428,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup BLAZE_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,12}
   );
 
@@ -437,7 +438,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup DROWNED_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,13}
   );
 
@@ -447,7 +448,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup CREEPER_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,14}
   );
 
@@ -457,7 +458,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup ENDERMITE_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,15}
   );
 
@@ -467,7 +468,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup EVOKER_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,16}
   );
 
@@ -477,7 +478,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup GHAST_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,17}
   );
 
@@ -487,7 +488,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup GUARDIAN_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,18}
   );
 
@@ -497,7 +498,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup HOGLIN_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,19}
   );
 
@@ -507,7 +508,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup HUSK_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,20}
   );
 
@@ -517,7 +518,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup PHANTOM_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,21}
   );
 
@@ -527,7 +528,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup PIGLIN_BRUTE_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,22}
   );
 
@@ -537,7 +538,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup MAGMA_CUBE_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,23}
   );
 
@@ -547,7 +548,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup RAVAGER_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,24}
   );
 
@@ -557,7 +558,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup SHULKER_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,25}
   );
 
@@ -567,7 +568,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup SILVERFISH_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,26}
   );
 
@@ -577,7 +578,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup SKELETON_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,27}
   );
 
@@ -587,7 +588,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup VINDICATOR_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,28}
   );
 
@@ -597,7 +598,7 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup VEX_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,29}
   );
 
@@ -607,18 +608,18 @@ public class EggMilkSoup implements ModInitializer {
   );
 
   public static final MobSoup STRAY_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,30}
   );
 
   public static final MobSoup COW_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32}
   );
 
   @Override
-	public void onInitialize() {
-		LOGGER.info("Adding mob milk and soup items.");
+  public void onInitialize() {
+    LOGGER.info("Adding mob milk and soup items.");
 
     Registry.register(Registry.ITEM, new Identifier("glow_squid_milk"), GLOW_SQUID_MILK);
     Registry.register(Registry.ITEM, new Identifier("glow_squid_soup"), GLOW_SQUID_SOUP);
