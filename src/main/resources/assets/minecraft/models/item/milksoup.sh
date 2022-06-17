@@ -17,3 +17,12 @@ EOF
 }
 EOF
 done
+
+cat > cow_soup.json <<EOF
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "minecraft:item/cow_soup"
+	}
+}
+EOF
