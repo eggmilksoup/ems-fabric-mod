@@ -1,60 +1,61 @@
-glow_squid	3
-fox	4
-donkey	5
-cod	6
-chicken	7
-cat	8
-horse	9
-bat	10
-axolotl	11
-salmon	12
-pufferfish	13
-rabbit	14
-polar_bear	15
-pig	16
-piglin	17
-ocelot	18
-mule	19
-parrot	20
-wandering_trader	21
-sheep	22
-skeleton_horse	23
-villager	24
-snow_golem	25
-squid	26
-strider	27
-tropical_fish	28
-turtle	29
-goat	30
-enderman	31
-llama	32
-cave_spider	1,1
-bee	1,2
-panda	1,3
-zombified_piglin	1,4
-spider	1,5
-wolf	1,6
-dolphin	1,7
-trader_llama	1,8
-zoglin	1,9
-wither_skeleton	1,10
-witch	1,11
-blaze	1,12
-drowned	1,13
-creeper	1,14
-endermite	1,15
-evoker	1,16
-ghast	1,17
-guardian	1,18
-hoglin	1,19
-husk	1,20
-phantom	1,21
-piglin_brute	1,22
-magma_cube	1,23
-ravager	1,24
-shulker	1,25
-silverfish	1,26
-skeleton	1,27
-vindicator	1,28
-vex	1,29
-stray	1,30
+glow_squid	16,24	3600,3600	0,0
+fox	23,1	20,1200	0,0
+donkey	2,5	3600,3600	0,0
+axolotl	10,13	1200,1200	0,0
+cod	13	600	0
+salmon	13	600	0
+pufferfish	19,9,17,13	600,600,600,600	0,0,0,0
+squid	13,15	600,600	0,0
+tropical_fish	13	600,600	0,0
+turtle	2,11	400,400	0,0
+dolphin	13,30	600,600	0,0
+chicken	18,28	600,600	0,0
+cat	26,1,4	600,600,600	0,1,0
+horse	1,8	3600,3600	1,1
+bat	16,18	6000,6000	0,1
+rabbit	8,26	3,2
+polar_bear	5,17,21,16,2	600,600,600,600,600	1,0,1,0,1
+pig	22	600	0
+piglin	3	600	0
+piglin_brute	2,5	600,600	2,2
+ocelot	1,17	600,600	3,1
+mule	5,2	600,600	1,0
+parrot	25,24	600,600	0,0
+wandering_trader	14	6000	0
+sheep	10	200	0
+skeleton_horse	13,1	600,600	0,1
+blaze	12,45	600,600	0,0
+creeper	15,41	600,600	0,0
+villager	47,10,9	600,600,600	0,0,0
+snow_golem	2	600	3
+strider	12,40	600	0
+enderman	42	600	0
+llama	15	600	0
+cave_spider	17,19	600,600	0,0
+bee	25	200	0
+panda	47	2400	0
+zombified_piglin	5,12	600,600	0,0
+spider	19,2	600,600	0,0
+wolf	5	300	1
+trader_llama	14,15	6000,600	0,0
+
+zoglin	1,9	0,0	0,0
+wither_skeleton	1,10	0,0	0,0
+witch	1,11	0,0	0,0
+drowned	1,13	0,0	0,0
+endermite	1,15	0,0	0,0
+evoker	1,16	0,0	0,0
+ghast	1,17	0,0	0,0
+guardian	1,18	0,0	0,0
+hoglin	1,19	0,0	0,0
+husk	1,20	0,0	0,0
+phantom	1,21	0,0	0,0
+magma_cube	1,23	0,0	0,0
+ravager	1,24	0,0	0,0
+shulker	1,25	0,0	0,0
+silverfish	1,26	0,0	0,0
+skeleton	1,27	0,0	0,0
+vindicator	1,28	0,0	0,0
+vex	1,29	0,0	0,0
+stray	1,30	0,0	0,0
+zombie	1	0	0

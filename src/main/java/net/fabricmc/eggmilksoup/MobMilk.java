@@ -4,6 +4,7 @@ import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.item.MilkBucketItem;
@@ -13,7 +14,7 @@ import net.minecraft.world.World;
 
 public class MobMilk extends MilkBucketItem {
     int[] effects;
-    public MobMilk(Settings settings, int[] effects) {
+    public MobMilk(Item.Settings settings, int[] effects) {
         super(settings);
         this.effects = effects;
     }

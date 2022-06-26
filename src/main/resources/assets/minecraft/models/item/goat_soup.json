@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "minecraft:item/goat_soup"
+		"layer0": "minecraft:item/cow_soup"
 	}
 }

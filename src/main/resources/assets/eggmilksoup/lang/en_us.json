@@ -1,4 +1,6 @@
 {
+  "item.minecraft.zombie_soup": "Zombie Soup",
+  "item.minecraft.zombie_milk": "Zombie Milk",
   "item.minecraft.glow_squid_soup": "Glow Squid Soup",
   "item.minecraft.glow_squid_milk": "Glow Squid Milk",
   "item.minecraft.fox_soup": "Fox Soup",
@@ -53,8 +55,6 @@
   "item.minecraft.tropical_fish_milk": "Tropical Fish Milk",
   "item.minecraft.turtle_soup": "Turtle Soup",
   "item.minecraft.turtle_milk": "Turtle Milk",
-  "item.minecraft.goat_soup": "Goat Soup",
-  "item.minecraft.goat_milk": "Goat Milk",
   "item.minecraft.enderman_soup": "Enderman Soup",
   "item.minecraft.enderman_milk": "Enderman Milk",
   "item.minecraft.llama_soup": "Llama Soup",
@@ -119,5 +119,6 @@
   "item.minecraft.vex_milk": "Vex Milk",
   "item.minecraft.stray_soup": "Stray Soup",
   "item.minecraft.stray_milk": "Stray Milk",
-  "item.minecraft.cow_soup": "Cow Soup"
+  "item.minecraft.cow_soup": "Cow Soup",
+  "item.minecraft.goat_soup": "Goat Soup"
 }
