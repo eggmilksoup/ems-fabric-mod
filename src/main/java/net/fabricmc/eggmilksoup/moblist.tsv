@@ -38,8 +38,17 @@ zombified_piglin	5,12	600,600	0,0
 spider	19,2	600,600	0,0
 wolf	5	300	1
 trader_llama	14,15	6000,600	0,0
-
-zoglin	1,9	0,0	0,0
+zoglin	17,5,1,15	600,600,600,600	0,0,0,0
+husk	17,18	600.600	0,0
+phantom	49	600	0
+magma_cube	8	600	0
+ravager	1,5,11,21	600,600,600,600	0,0,0,0
+shulker	11,25	600,600	0,0
+vindicator	1,28	0,0	0,0
+vex	1,29	0,0	0,0
+stray	1,30	0,0	0,0
+zombie	1	0	0
+silverfish	1,26	0,0	0,0
 wither_skeleton	1,10	0,0	0,0
 witch	1,11	0,0	0,0
 drowned	1,13	0,0	0,0
@@ -48,14 +57,3 @@ evoker	1,16	0,0	0,0
 ghast	1,17	0,0	0,0
 guardian	1,18	0,0	0,0
 hoglin	1,19	0,0	0,0
-husk	1,20	0,0	0,0
-phantom	1,21	0,0	0,0
-magma_cube	1,23	0,0	0,0
-ravager	1,24	0,0	0,0
-shulker	1,25	0,0	0,0
-silverfish	1,26	0,0	0,0
-skeleton	1,27	0,0	0,0
-vindicator	1,28	0,0	0,0
-vex	1,29	0,0	0,0
-stray	1,30	0,0	0,0
-zombie	1	0	0
