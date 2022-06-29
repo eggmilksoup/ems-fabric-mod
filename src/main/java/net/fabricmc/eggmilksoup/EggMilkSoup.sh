@@ -33,6 +33,15 @@ do
 done < moblist.tsv
 
 cat >> EggMilkSoup.java <<EOF
+  public static final SkeletonMilk SKELETON_MILK = new SkeletonMilk(new FabricItemSettings.group(ItemGroup.FOOD).maxCount(1));
+
+  public static final MobSoup SKELETON_SOUP = new MobSoup(
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
+    new int[] {7},
+    new int[] {0},
+    new int[] {0}
+  );
+
   public static final MobSoup COW_SOUP = new MobSoup (
     new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {1,2,3,4,5,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,38,39,40,41,42,43,44,45,46,47,48,49},
@@ -53,11 +62,13 @@ EOF
 
 cut -f 1 moblist.tsv | while read mob
 do
-  echo "    Registry.register(Registry.ITEM, new Identifier(\"${mob}_milk\"), $(printf $mob | tr [:lower:] [:upper:])_MILK);" >> EggMilkSoup.java
-  echo "    Registry.register(Registry.ITEM, new Identifier(\"${mob}_soup\"), $(printf $mob | tr [:lower:] [:upper:])_SOUP);" >> EggMilkSoup.java
+  echo "    Registry.register(Registry.ITEM, new Identifier(\"${mob}_milk\"), $(printf "$mob" | tr [:lower:] [:upper:])_MILK);" >> EggMilkSoup.java
+  echo "    Registry.register(Registry.ITEM, new Identifier(\"${mob}_soup\"), $(printf "$mob" | tr [:lower:] [:upper:])_SOUP);" >> EggMilkSoup.java
 done
 
 cat >> EggMilkSoup.java <<EOF
+    Registry.register(Registry.ITEM, new Identifier("skeleton_milk") SKELETON_MILK);
+    Registry.register(Registry.ITEM, new Identifier("skeleton_soup") SKELETON_SOUP);
     Registry.register(Registry.ITEM, new Identifier("cow_soup"), COW_SOUP);
     Registry.register(Registry.ITEM, new Identifier("goat_soup"), GOAT_SOUP);
   }

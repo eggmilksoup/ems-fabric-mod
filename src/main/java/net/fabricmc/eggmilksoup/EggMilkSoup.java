@@ -368,150 +368,258 @@ public class EggMilkSoup implements ModInitializer {
   public static final MobSoup SNOW_GOLEM_SOUP = new MobSoup (
     new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
     new int[] {2},
-    new int[] {0},
-    new int[] {0}
+    new int[] {600},
+    new int[] {3}
   );
 
   public static final MobMilk STRIDER_MILK = new MobMilk (
     new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-    new int[] {27}
+    new int[] {12,40}
   );
 
   public static final MobSoup STRIDER_SOUP = new MobSoup (
     new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {27},
-    new int[] {0},
-    new int[] {0}
-  );
-
-  public static final MobMilk GOAT_MILK = new MobMilk (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-    new int[] {30}
-  );
-
-  public static final MobSoup GOAT_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {30},
-    new int[] {0},
+    new int[] {12,40},
+    new int[] {600},
     new int[] {0}
   );
 
   public static final MobMilk ENDERMAN_MILK = new MobMilk (
     new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-    new int[] {31}
+    new int[] {42}
   );
 
   public static final MobSoup ENDERMAN_SOUP = new MobSoup (
     new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {31},
-    new int[] {0},
+    new int[] {42},
+    new int[] {600},
     new int[] {0}
   );
 
   public static final MobMilk LLAMA_MILK = new MobMilk (
     new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-    new int[] {32}
+    new int[] {15}
   );
 
   public static final MobSoup LLAMA_SOUP = new MobSoup (
     new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {32},
-    new int[] {0},
+    new int[] {15},
+    new int[] {600},
     new int[] {0}
   );
 
   public static final MobMilk CAVE_SPIDER_MILK = new MobMilk (
     new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-    new int[] {1,1}
+    new int[] {17,19}
   );
 
   public static final MobSoup CAVE_SPIDER_SOUP = new MobSoup (
     new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {1,1},
-    new int[] {0,0},
+    new int[] {17,19},
+    new int[] {600,600},
     new int[] {0,0}
   );
 
   public static final MobMilk BEE_MILK = new MobMilk (
     new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-    new int[] {1,2}
+    new int[] {25}
   );
 
   public static final MobSoup BEE_SOUP = new MobSoup (
     new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {1,2},
-    new int[] {0,0},
-    new int[] {0,0}
+    new int[] {25},
+    new int[] {200},
+    new int[] {0}
   );
 
   public static final MobMilk PANDA_MILK = new MobMilk (
     new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-    new int[] {1,3}
+    new int[] {47}
   );
 
   public static final MobSoup PANDA_SOUP = new MobSoup (
     new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {1,3},
-    new int[] {0,0},
-    new int[] {0,0}
+    new int[] {47},
+    new int[] {2400},
+    new int[] {0}
   );
 
   public static final MobMilk ZOMBIFIED_PIGLIN_MILK = new MobMilk (
     new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-    new int[] {1,4}
+    new int[] {5,12}
   );
 
   public static final MobSoup ZOMBIFIED_PIGLIN_SOUP = new MobSoup (
     new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {1,4},
-    new int[] {0,0},
+    new int[] {5,12},
+    new int[] {600,600},
     new int[] {0,0}
   );
 
   public static final MobMilk SPIDER_MILK = new MobMilk (
     new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-    new int[] {1,5}
+    new int[] {19,2}
   );
 
   public static final MobSoup SPIDER_SOUP = new MobSoup (
     new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {1,5},
-    new int[] {0,0},
+    new int[] {19,2},
+    new int[] {600,600},
     new int[] {0,0}
   );
 
   public static final MobMilk WOLF_MILK = new MobMilk (
     new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-    new int[] {1,6}
+    new int[] {5}
   );
 
   public static final MobSoup WOLF_SOUP = new MobSoup (
     new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {1,6},
-    new int[] {0,0},
-    new int[] {0,0}
+    new int[] {5},
+    new int[] {300},
+    new int[] {1}
   );
 
   public static final MobMilk TRADER_LLAMA_MILK = new MobMilk (
     new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-    new int[] {1,8}
+    new int[] {14,15}
   );
 
   public static final MobSoup TRADER_LLAMA_SOUP = new MobSoup (
     new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {1,8},
-    new int[] {0,0},
+    new int[] {14,15},
+    new int[] {6000,600},
     new int[] {0,0}
   );
 
   public static final MobMilk ZOGLIN_MILK = new MobMilk (
     new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-    new int[] {1,9}
+    new int[] {17,5,1,15}
   );
 
   public static final MobSoup ZOGLIN_SOUP = new MobSoup (
     new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {1,9},
+    new int[] {17,5,1,15},
+    new int[] {600,600,600,600},
+    new int[] {0,0,0,0}
+  );
+
+  public static final MobMilk HUSK_MILK = new MobMilk (
+    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new int[] {17,18}
+  );
+
+  public static final MobSoup HUSK_SOUP = new MobSoup (
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
+    new int[] {17,18},
+    new int[] {600.600},
+    new int[] {0,0}
+  );
+
+  public static final MobMilk PHANTOM_MILK = new MobMilk (
+    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new int[] {49}
+  );
+
+  public static final MobSoup PHANTOM_SOUP = new MobSoup (
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
+    new int[] {49},
+    new int[] {600},
+    new int[] {0}
+  );
+
+  public static final MobMilk MAGMA_CUBE_MILK = new MobMilk (
+    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new int[] {8}
+  );
+
+  public static final MobSoup MAGMA_CUBE_SOUP = new MobSoup (
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
+    new int[] {8},
+    new int[] {600},
+    new int[] {0}
+  );
+
+  public static final MobMilk RAVAGER_MILK = new MobMilk (
+    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new int[] {1,5,11,21}
+  );
+
+  public static final MobSoup RAVAGER_SOUP = new MobSoup (
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
+    new int[] {1,5,11,21},
+    new int[] {600,600,600,600},
+    new int[] {0,0,0,0}
+  );
+
+  public static final MobMilk SHULKER_MILK = new MobMilk (
+    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new int[] {11,25}
+  );
+
+  public static final MobSoup SHULKER_SOUP = new MobSoup (
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
+    new int[] {11,25},
+    new int[] {600,600},
+    new int[] {0,0}
+  );
+
+  public static final MobMilk VINDICATOR_MILK = new MobMilk (
+    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new int[] {1,28}
+  );
+
+  public static final MobSoup VINDICATOR_SOUP = new MobSoup (
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
+    new int[] {1,28},
+    new int[] {0,0},
+    new int[] {0,0}
+  );
+
+  public static final MobMilk VEX_MILK = new MobMilk (
+    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new int[] {1,29}
+  );
+
+  public static final MobSoup VEX_SOUP = new MobSoup (
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
+    new int[] {1,29},
+    new int[] {0,0},
+    new int[] {0,0}
+  );
+
+  public static final MobMilk STRAY_MILK = new MobMilk (
+    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new int[] {1,30}
+  );
+
+  public static final MobSoup STRAY_SOUP = new MobSoup (
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
+    new int[] {1,30},
+    new int[] {0,0},
+    new int[] {0,0}
+  );
+
+  public static final MobMilk ZOMBIE_MILK = new MobMilk (
+    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new int[] {1}
+  );
+
+  public static final MobSoup ZOMBIE_SOUP = new MobSoup (
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
+    new int[] {1},
+    new int[] {0},
+    new int[] {0}
+  );
+
+  public static final MobMilk SILVERFISH_MILK = new MobMilk (
+    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
+    new int[] {1,26}
+  );
+
+  public static final MobSoup SILVERFISH_SOUP = new MobSoup (
+    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
+    new int[] {1,26},
     new int[] {0,0},
     new int[] {0,0}
   );
@@ -612,144 +720,23 @@ public class EggMilkSoup implements ModInitializer {
     new int[] {0,0}
   );
 
-  public static final MobMilk HUSK_MILK = new MobMilk (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-    new int[] {1,20}
-  );
+  public static final SkeletonMilk SKELETON_MILK = new SkeletonMilk(new FabricItemSettings.group(ItemGroup.FOOD).maxCount(1));
 
-  public static final MobSoup HUSK_SOUP = new MobSoup (
+  public static final MobSoup SKELETON_SOUP = new MobSoup(
     new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {1,20},
-    new int[] {0,0},
-    new int[] {0,0}
-  );
-
-  public static final MobMilk PHANTOM_MILK = new MobMilk (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-    new int[] {1,21}
-  );
-
-  public static final MobSoup PHANTOM_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {1,21},
-    new int[] {0,0},
-    new int[] {0,0}
-  );
-
-  public static final MobMilk MAGMA_CUBE_MILK = new MobMilk (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-    new int[] {1,23}
-  );
-
-  public static final MobSoup MAGMA_CUBE_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {1,23},
-    new int[] {0,0},
-    new int[] {0,0}
-  );
-
-  public static final MobMilk RAVAGER_MILK = new MobMilk (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-    new int[] {1,24}
-  );
-
-  public static final MobSoup RAVAGER_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {1,24},
-    new int[] {0,0},
-    new int[] {0,0}
-  );
-
-  public static final MobMilk SHULKER_MILK = new MobMilk (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-    new int[] {1,25}
-  );
-
-  public static final MobSoup SHULKER_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {1,25},
-    new int[] {0,0},
-    new int[] {0,0}
-  );
-
-  public static final MobMilk SILVERFISH_MILK = new MobMilk (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-    new int[] {1,26}
-  );
-
-  public static final MobSoup SILVERFISH_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {1,26},
-    new int[] {0,0},
-    new int[] {0,0}
-  );
-
-  public static final MobMilk SKELETON_MILK = new MobMilk (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-    new int[] {1,27}
-  );
-
-  public static final MobSoup SKELETON_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {1,27},
-    new int[] {0,0},
-    new int[] {0,0}
-  );
-
-  public static final MobMilk VINDICATOR_MILK = new MobMilk (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-    new int[] {1,28}
-  );
-
-  public static final MobSoup VINDICATOR_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {1,28},
-    new int[] {0,0},
-    new int[] {0,0}
-  );
-
-  public static final MobMilk VEX_MILK = new MobMilk (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-    new int[] {1,29}
-  );
-
-  public static final MobSoup VEX_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {1,29},
-    new int[] {0,0},
-    new int[] {0,0}
-  );
-
-  public static final MobMilk STRAY_MILK = new MobMilk (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-    new int[] {1,30}
-  );
-
-  public static final MobSoup STRAY_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {1,30},
-    new int[] {0,0},
-    new int[] {0,0}
-  );
-
-  public static final MobMilk ZOMBIE_MILK = new MobMilk (
-    new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1),
-    new int[] {1}
-  );
-
-  public static final MobSoup ZOMBIE_SOUP = new MobSoup (
-    new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {1},
+    new int[] {7},
     new int[] {0},
     new int[] {0}
   );
 
   public static final MobSoup COW_SOUP = new MobSoup (
     new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1),
-    new int[] {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30},
-    new int[] {300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300},
-    new int[] {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}
+    new int[] {1,2,3,4,5,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,38,39,40,41,42,43,44,45,46,47,48,49},
+    new int[] {600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600,600},
+    new int[] {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
   );
+
+  public static final GoatSoup GOAT_SOUP = new GoatSoup(new FabricItemSettings().group(ItemGroup.FOOD).food(FoodComponents.SUSPICIOUS_STEW).maxCount(1));
 
   @Override
   public void onInitialize() {
@@ -817,8 +804,6 @@ public class EggMilkSoup implements ModInitializer {
     Registry.register(Registry.ITEM, new Identifier("snow_golem_soup"), SNOW_GOLEM_SOUP);
     Registry.register(Registry.ITEM, new Identifier("strider_milk"), STRIDER_MILK);
     Registry.register(Registry.ITEM, new Identifier("strider_soup"), STRIDER_SOUP);
-    Registry.register(Registry.ITEM, new Identifier("goat_milk"), GOAT_MILK);
-    Registry.register(Registry.ITEM, new Identifier("goat_soup"), GOAT_SOUP);
     Registry.register(Registry.ITEM, new Identifier("enderman_milk"), ENDERMAN_MILK);
     Registry.register(Registry.ITEM, new Identifier("enderman_soup"), ENDERMAN_SOUP);
     Registry.register(Registry.ITEM, new Identifier("llama_milk"), LLAMA_MILK);
@@ -839,6 +824,26 @@ public class EggMilkSoup implements ModInitializer {
     Registry.register(Registry.ITEM, new Identifier("trader_llama_soup"), TRADER_LLAMA_SOUP);
     Registry.register(Registry.ITEM, new Identifier("zoglin_milk"), ZOGLIN_MILK);
     Registry.register(Registry.ITEM, new Identifier("zoglin_soup"), ZOGLIN_SOUP);
+    Registry.register(Registry.ITEM, new Identifier("husk_milk"), HUSK_MILK);
+    Registry.register(Registry.ITEM, new Identifier("husk_soup"), HUSK_SOUP);
+    Registry.register(Registry.ITEM, new Identifier("phantom_milk"), PHANTOM_MILK);
+    Registry.register(Registry.ITEM, new Identifier("phantom_soup"), PHANTOM_SOUP);
+    Registry.register(Registry.ITEM, new Identifier("magma_cube_milk"), MAGMA_CUBE_MILK);
+    Registry.register(Registry.ITEM, new Identifier("magma_cube_soup"), MAGMA_CUBE_SOUP);
+    Registry.register(Registry.ITEM, new Identifier("ravager_milk"), RAVAGER_MILK);
+    Registry.register(Registry.ITEM, new Identifier("ravager_soup"), RAVAGER_SOUP);
+    Registry.register(Registry.ITEM, new Identifier("shulker_milk"), SHULKER_MILK);
+    Registry.register(Registry.ITEM, new Identifier("shulker_soup"), SHULKER_SOUP);
+    Registry.register(Registry.ITEM, new Identifier("vindicator_milk"), VINDICATOR_MILK);
+    Registry.register(Registry.ITEM, new Identifier("vindicator_soup"), VINDICATOR_SOUP);
+    Registry.register(Registry.ITEM, new Identifier("vex_milk"), VEX_MILK);
+    Registry.register(Registry.ITEM, new Identifier("vex_soup"), VEX_SOUP);
+    Registry.register(Registry.ITEM, new Identifier("stray_milk"), STRAY_MILK);
+    Registry.register(Registry.ITEM, new Identifier("stray_soup"), STRAY_SOUP);
+    Registry.register(Registry.ITEM, new Identifier("zombie_milk"), ZOMBIE_MILK);
+    Registry.register(Registry.ITEM, new Identifier("zombie_soup"), ZOMBIE_SOUP);
+    Registry.register(Registry.ITEM, new Identifier("silverfish_milk"), SILVERFISH_MILK);
+    Registry.register(Registry.ITEM, new Identifier("silverfish_soup"), SILVERFISH_SOUP);
     Registry.register(Registry.ITEM, new Identifier("wither_skeleton_milk"), WITHER_SKELETON_MILK);
     Registry.register(Registry.ITEM, new Identifier("wither_skeleton_soup"), WITHER_SKELETON_SOUP);
     Registry.register(Registry.ITEM, new Identifier("witch_milk"), WITCH_MILK);
@@ -855,28 +860,9 @@ public class EggMilkSoup implements ModInitializer {
     Registry.register(Registry.ITEM, new Identifier("guardian_soup"), GUARDIAN_SOUP);
     Registry.register(Registry.ITEM, new Identifier("hoglin_milk"), HOGLIN_MILK);
     Registry.register(Registry.ITEM, new Identifier("hoglin_soup"), HOGLIN_SOUP);
-    Registry.register(Registry.ITEM, new Identifier("husk_milk"), HUSK_MILK);
-    Registry.register(Registry.ITEM, new Identifier("husk_soup"), HUSK_SOUP);
-    Registry.register(Registry.ITEM, new Identifier("phantom_milk"), PHANTOM_MILK);
-    Registry.register(Registry.ITEM, new Identifier("phantom_soup"), PHANTOM_SOUP);
-    Registry.register(Registry.ITEM, new Identifier("magma_cube_milk"), MAGMA_CUBE_MILK);
-    Registry.register(Registry.ITEM, new Identifier("magma_cube_soup"), MAGMA_CUBE_SOUP);
-    Registry.register(Registry.ITEM, new Identifier("ravager_milk"), RAVAGER_MILK);
-    Registry.register(Registry.ITEM, new Identifier("ravager_soup"), RAVAGER_SOUP);
-    Registry.register(Registry.ITEM, new Identifier("shulker_milk"), SHULKER_MILK);
-    Registry.register(Registry.ITEM, new Identifier("shulker_soup"), SHULKER_SOUP);
-    Registry.register(Registry.ITEM, new Identifier("silverfish_milk"), SILVERFISH_MILK);
-    Registry.register(Registry.ITEM, new Identifier("silverfish_soup"), SILVERFISH_SOUP);
-    Registry.register(Registry.ITEM, new Identifier("skeleton_milk"), SKELETON_MILK);
-    Registry.register(Registry.ITEM, new Identifier("skeleton_soup"), SKELETON_SOUP);
-    Registry.register(Registry.ITEM, new Identifier("vindicator_milk"), VINDICATOR_MILK);
-    Registry.register(Registry.ITEM, new Identifier("vindicator_soup"), VINDICATOR_SOUP);
-    Registry.register(Registry.ITEM, new Identifier("vex_milk"), VEX_MILK);
-    Registry.register(Registry.ITEM, new Identifier("vex_soup"), VEX_SOUP);
-    Registry.register(Registry.ITEM, new Identifier("stray_milk"), STRAY_MILK);
-    Registry.register(Registry.ITEM, new Identifier("stray_soup"), STRAY_SOUP);
-    Registry.register(Registry.ITEM, new Identifier("zombie_milk"), ZOMBIE_MILK);
-    Registry.register(Registry.ITEM, new Identifier("zombie_soup"), ZOMBIE_SOUP);
+    Registry.register(Registry.ITEM, new Identifier("skeleton_milk") SKELETON_MILK);
+    Registry.register(Registry.ITEM, new Identifier("skeleton_soup") SKELETON_SOUP);
     Registry.register(Registry.ITEM, new Identifier("cow_soup"), COW_SOUP);
+    Registry.register(Registry.ITEM, new Identifier("goat_soup"), GOAT_SOUP);
   }
 }
